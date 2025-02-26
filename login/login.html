@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/login/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <script src="/login/login.js"></script>
+</head>
+<body>
+    <header>
+        <div class="home-sobre">
+            <button class="btn-home" onclick="home()">Home</button>
+            <button class="btn-sobre" onclick="sobre()">Sobre a empresa</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="inputs">
+                    <input type="hidden" id="idUsuario"> <!-- Campo oculto para armazenar o ID -->
+                    <input type="text" placeholder="Nome Completo" id="nome">
+                    <input type="text" placeholder="Email" id="senha">
+                    <input type="text" placeholder="Login" id="login">
+                    <input type="text" placeholder="Senha" id="email">
+                </div>
+                <div class="btns">
+                    <button onclick="login()">Logar</button>
+                    <button onclick="adicionarOuEditar()">Cadastrar</button>
+                </div>
+            </div>
+            
+            <img src="/img/1.png" alt="">
+        </div>
+        
+    </main>
+    <footer>
+        <img src="/img/2.png" alt="" class="img-footer">
+        <h1>Desenvolvimento por Spider Man</h1>
+    </footer>
+</body>
+</html>

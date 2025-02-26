@@ -120,8 +120,8 @@ function home(){
     window.location.href = "/index.html";
 }
 function sobre(){
-    window.location.href = "/pages/sobre.html";
+    window.location.href = "sobre/sobre.html";
 }
 function loginCadastro(){
-    window.location.href = "/pages/login.html";
+    window.location.href = "/login/login.html";
 }
