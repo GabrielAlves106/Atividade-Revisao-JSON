@@ -116,9 +116,7 @@ function limparFormulario() {
 if (!localStorage.getItem("bd")) {
     banco();
 }
-function home(){
-    window.location.href = "/index.html";
-}
+
 function sobre(){
     window.location.href = "sobre/sobre.html";
 }
