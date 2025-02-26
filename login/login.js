@@ -16,7 +16,7 @@ function login() {
 
     if (usuario) {
         alert("Login realizado com sucesso!");
-        window.location.href = "/sobre/sobre.html";
+        window.location.href = "../sobre/sobre.html";
     } else {
         alert("Login ou senha incorretos.");
     }

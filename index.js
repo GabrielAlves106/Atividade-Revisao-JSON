@@ -121,5 +121,5 @@ function sobre(){
     window.location.href = "sobre/sobre.html";
 }
 function loginCadastro(){
-    window.location.href = "/login/login.html";
+    window.location.href = "login/login.html";
 }
