@@ -118,10 +118,10 @@ if (!localStorage.getItem("bd")) {
 }
 
 function home(){
-    window.location.href = "../index.hml";
+    window.location.href = "../index.html";
 }
 function sobre(){
-    window.location.href = "../sobre/sore.html";
+    window.location.href = "../sobre/sobre.html";
 }
 function loginCadastro(){
     window.location.href = "../login/login.html";
