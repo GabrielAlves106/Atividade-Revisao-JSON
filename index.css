@@ -42,7 +42,7 @@ header{
     font-size: 1.3rem;
     padding-left: 1rem;
     padding-top: 1rem;
-    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 0.5rem;
 }
 .btn-home:hover{
@@ -60,7 +60,7 @@ header{
     font-size: 1.3rem;
     padding-left: 1rem;
     padding-top: 1rem;
-    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 0.5rem;
 }
 .btn-sobre:hover{
@@ -84,7 +84,7 @@ header{
     font-size: 1.3rem;
     padding-left: 1rem;
     padding-top: 1rem;
-    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 0.5rem;
     
 }
@@ -103,7 +103,7 @@ header{
     font-size: 1.3rem;
     padding-left: 1rem;
     padding-top: 1rem;
-    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 0.5rem;
 }
 .btn-cadastro:hover{
